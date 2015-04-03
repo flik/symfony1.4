@@ -1,0 +1,122 @@
+VmtestCategory:
+  actAs: { Timestampable: ~ }
+  columns:
+    name: { type: string(255), notnull: true, unique: true }
+ 
+VmtestJob:
+  actAs: { Timestampable: ~ }
+  columns:
+    category_id:  { type: integer, notnull: true }
+    type:         { type: string(255) }
+    company:      { type: string(255), notnull: true }
+    picture:      { type: string(255) }
+    url:          { type: string(255) }
+    width:     	  { type: integer, notnull: true }
+    height:         { type: integer, notnull: true }
+    description:  { type: string(4000), notnull: true }
+    token:        { type: string(255), notnull: true, unique: true }
+    is_public:    { type: boolean, notnull: true, default: 1 }
+    is_activated: { type: boolean, notnull: true, default: 0 }
+    email:        { type: string(255), notnull: true }
+    expires_at:   { type: timestamp, notnull: true }
+  relations:
+    VmtestCategory: { onDelete: CASCADE, local: category_id, foreign: id, foreignAlias: VmtestJob } 
+ 
+VmtestAffiliate:
+  actAs: { Timestampable: ~ }
+  columns:
+    url:       { type: string(255), notnull: true }
+    email:     { type: string(255), notnull: true, unique: true }
+    token:     { type: string(255), notnull: true }
+    is_active: { type: boolean, notnull: true, default: 0 }
+  relations:
+    VmtestCategories:
+      class: VmtestCategory
+      refClass: VmtestCategoryAffiliate
+      local: affiliate_id
+      foreign: category_id
+      foreignAlias: VmtestAffiliates
+ 
+VmtestCategoryAffiliate:
+VmtestCategory:
+  actAs: { Timestampable: ~ }
+  columns:
+    name: { type: string(255), notnull: true, unique: true }
+ 
+VmtestJob:
+  actAs: { Timestampable: ~ }
+  columns:
+    category_id:  { type: integer, notnull: true }
+    type:         { type: string(255) }
+    company:      { type: string(255), notnull: true }
+    picture:      { type: string(255) }
+    url:          { type: string(255) }
+    width:     	  { type: integer, notnull: true }
+    height:       { type: integer, notnull: true }
+    description:  { type: string(4000), notnull: true }
+    token:        { type: string(255), notnull: true, unique: true }
+    is_public:    { type: boolean, notnull: true, default: 1 }
+    is_activated: { type: boolean, notnull: true, default: 0 }
+    email:        { type: string(255), notnull: true }
+    expires_at:   { type: timestamp, notnull: true }
+  relations:
+    VmtestCategory: { onDelete: CASCADE, local: category_id, foreign: id, foreignAlias: VmtestJobs } 
+ 
+VmtestAffiliate:
+  actAs: { Timestampable: ~ }
+  columns:
+    url:       { type: string(255), notnull: true }
+    email:     { type: string(255), notnull: true, unique: true }
+    token:     { type: string(255), notnull: true }
+    is_active: { type: boolean, notnull: true, default: 0 }
+  relations:
+    VmtestCategories:
+      class: VmtestCategory
+      refClass: VmtestCategoryAffiliate
+      local: affiliate_id
+      foreign: category_id
+      foreignAlias: VmtestAffiliates
+ 
+VmtestCategoryAffiliate:
+  columns:
+    category_id:  { type: integer, primary: true }
+    affiliate_id: { type: integer, primary: true }
+  relations:
+    VmtestCategory:  { onDelete: CASCADE, local: category_id, foreign: id }
+    VmtestAffiliate: { onDelete: CASCADE, local: affiliate_id, foreign: id }
+  columns:
+    category_id:  { type: integer, primary: true }
+    affiliate_id: { type: integer, primary: true }
+  relations:
+    VmtestCategory:  { onDelete: CASCADE, local: category_id, foreign: id }
+    VmtestAffiliate: { onDelete: CASCADE, local: affiliate_id, foreign: id }
+
+BlogPost:
+  actAs:
+    Sluggable:
+      fields: [title]
+    Timestampable:
+  columns:
+    title: string(255)
+    body: clob
+    author: string(255)
+  relations:
+    Tags:
+      class: Tag
+      refClass: BlogPostTag
+      foreignAlias: BlogPosts
+ 
+BlogPostTag:
+  columns:
+    blog_post_id:
+      type: integer
+      primary: true
+    tag_id:
+      type: integer
+      primary: true
+ 
+Tag:
+  actAs: [Timestampable]
+  columns:
+    name: string(255)
+ 

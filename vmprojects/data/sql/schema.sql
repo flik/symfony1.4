@@ -1,0 +1,12 @@
+CREATE TABLE blog_post (id BIGINT AUTO_INCREMENT, title VARCHAR(255), body LONGTEXT, author VARCHAR(255), slug VARCHAR(255), created_at DATETIME NOT NULL, updated_at DATETIME NOT NULL, UNIQUE INDEX blog_post_sluggable_idx (slug), PRIMARY KEY(id)) ENGINE = INNODB;
+CREATE TABLE blog_post_tag (blog_post_id BIGINT, tag_id BIGINT, PRIMARY KEY(blog_post_id, tag_id)) ENGINE = INNODB;
+CREATE TABLE tag (id BIGINT AUTO_INCREMENT, name VARCHAR(255), created_at DATETIME NOT NULL, updated_at DATETIME NOT NULL, PRIMARY KEY(id)) ENGINE = INNODB;
+CREATE TABLE vmtest_affiliate (id BIGINT AUTO_INCREMENT, url VARCHAR(255) NOT NULL, email VARCHAR(255) NOT NULL UNIQUE, token VARCHAR(255) NOT NULL, is_active TINYINT(1) DEFAULT '0' NOT NULL, created_at DATETIME NOT NULL, updated_at DATETIME NOT NULL, PRIMARY KEY(id)) ENGINE = INNODB;
+CREATE TABLE vmtest_category (id BIGINT AUTO_INCREMENT, name VARCHAR(255) NOT NULL UNIQUE, created_at DATETIME NOT NULL, updated_at DATETIME NOT NULL, PRIMARY KEY(id)) ENGINE = INNODB;
+CREATE TABLE vmtest_category_affiliate (category_id BIGINT, affiliate_id BIGINT, PRIMARY KEY(category_id, affiliate_id)) ENGINE = INNODB;
+CREATE TABLE vmtest_job (id BIGINT AUTO_INCREMENT, category_id BIGINT NOT NULL, type VARCHAR(255), company VARCHAR(255) NOT NULL, picture VARCHAR(255), url VARCHAR(255), width BIGINT NOT NULL, height BIGINT NOT NULL, description TEXT NOT NULL, token VARCHAR(255) NOT NULL UNIQUE, is_public TINYINT(1) DEFAULT '1' NOT NULL, is_activated TINYINT(1) DEFAULT '0' NOT NULL, email VARCHAR(255) NOT NULL, expires_at DATETIME NOT NULL, created_at DATETIME NOT NULL, updated_at DATETIME NOT NULL, INDEX category_id_idx (category_id), PRIMARY KEY(id)) ENGINE = INNODB;
+ALTER TABLE blog_post_tag ADD CONSTRAINT blog_post_tag_tag_id_tag_id FOREIGN KEY (tag_id) REFERENCES tag(id);
+ALTER TABLE blog_post_tag ADD CONSTRAINT blog_post_tag_blog_post_id_blog_post_id FOREIGN KEY (blog_post_id) REFERENCES blog_post(id);
+ALTER TABLE vmtest_category_affiliate ADD CONSTRAINT vmtest_category_affiliate_category_id_vmtest_category_id FOREIGN KEY (category_id) REFERENCES vmtest_category(id) ON DELETE CASCADE;
+ALTER TABLE vmtest_category_affiliate ADD CONSTRAINT vmtest_category_affiliate_affiliate_id_vmtest_affiliate_id FOREIGN KEY (affiliate_id) REFERENCES vmtest_affiliate(id) ON DELETE CASCADE;
+ALTER TABLE vmtest_job ADD CONSTRAINT vmtest_job_category_id_vmtest_category_id FOREIGN KEY (category_id) REFERENCES vmtest_category(id) ON DELETE CASCADE;

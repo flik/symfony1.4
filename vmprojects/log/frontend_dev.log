@@ -1,0 +1,467 @@
+Apr 02 02:00:37 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /job with parameters array (  'module' => 'job',  'action' => 'index',)
+Apr 02 02:00:37 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 02 02:00:37 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 02 02:00:37 symfony [info] {jobActions} Call "jobActions->executeIndex()"
+Apr 02 02:00:37 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Apr 02 02:00:37 symfony [info] {Doctrine_Connection_Mysql} query : SELECT v.id AS v__id, v.category_id AS v__category_id, v.type AS v__type, v.company AS v__company, v.picture AS v__picture, v.url AS v__url, v.width AS v__width, v.height AS v__height, v.description AS v__description, v.token AS v__token, v.is_public AS v__is_public, v.is_activated AS v__is_activated, v.email AS v__email, v.expires_at AS v__expires_at, v.created_at AS v__created_at, v.updated_at AS v__updated_at FROM vmtest_job v - ()
+Apr 02 02:00:37 symfony [info] {sfPHPView} Render "/home/ashfaqzp/ashfaq_projects/vmprojects/apps/frontend/modules/job/templates/indexSuccess.php"
+Apr 02 02:00:55 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /jobs with parameters array (  'module' => 'jobs',  'action' => 'index',)
+Apr 02 02:00:55 symfony [info] {sfFrontWebController} Action "jobs/index" does not exist
+Apr 02 02:00:55 symfony [err] {sfError404Exception} Action "jobs/index" does not exist.
+Apr 02 02:00:55 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Apr 02 02:00:55 symfony [warning] {sfWebDebugLogger}  Warning at /home/ashfaqzp/ashfaq_projects/vmprojects/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /home/ashfaqzp/ashfaq_projects/vmprojects/lib/vendor/symfony/lib/response/sfWebResponse.class.php:409))
+Apr 02 02:00:55 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 02 02:00:55 symfony [info] {sfWebDebugLogger} Configuration 0.31 ms (5)
+Apr 02 02:00:55 symfony [info] {sfWebDebugLogger} Factories 8.65 ms (1)
+Apr 02 02:01:37 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /job with parameters array (  'module' => 'job',  'action' => 'index',)
+Apr 02 02:01:37 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 02 02:01:37 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 02 02:01:37 symfony [info] {jobActions} Call "jobActions->executeIndex()"
+Apr 02 02:01:37 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Apr 02 02:01:37 symfony [info] {Doctrine_Connection_Mysql} query : SELECT v.id AS v__id, v.category_id AS v__category_id, v.type AS v__type, v.company AS v__company, v.picture AS v__picture, v.url AS v__url, v.width AS v__width, v.height AS v__height, v.description AS v__description, v.token AS v__token, v.is_public AS v__is_public, v.is_activated AS v__is_activated, v.email AS v__email, v.expires_at AS v__expires_at, v.created_at AS v__created_at, v.updated_at AS v__updated_at FROM vmtest_job v - ()
+Apr 02 02:01:37 symfony [info] {sfPHPView} Render "/home/ashfaqzp/ashfaq_projects/vmprojects/apps/frontend/modules/job/templates/indexSuccess.php"
+Apr 02 02:02:25 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /job with parameters array (  'module' => 'job',  'action' => 'index',)
+Apr 02 02:02:25 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 02 02:02:25 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 02 02:02:25 symfony [info] {jobActions} Call "jobActions->executeIndex()"
+Apr 02 02:02:25 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Apr 02 02:02:25 symfony [info] {Doctrine_Connection_Mysql} query : SELECT v.id AS v__id, v.category_id AS v__category_id, v.type AS v__type, v.company AS v__company, v.picture AS v__picture, v.url AS v__url, v.width AS v__width, v.height AS v__height, v.description AS v__description, v.token AS v__token, v.is_public AS v__is_public, v.is_activated AS v__is_activated, v.email AS v__email, v.expires_at AS v__expires_at, v.created_at AS v__created_at, v.updated_at AS v__updated_at FROM vmtest_job v - ()
+Apr 02 02:02:25 symfony [info] {sfPHPView} Render "/home/ashfaqzp/ashfaq_projects/vmprojects/apps/frontend/modules/job/templates/indexSuccess.php"
+Apr 02 02:06:21 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /job with parameters array (  'module' => 'job',  'action' => 'index',)
+Apr 02 02:06:21 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 02 02:06:21 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 02 02:06:21 symfony [info] {jobActions} Call "jobActions->executeIndex()"
+Apr 02 02:06:21 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Apr 02 02:06:21 symfony [info] {Doctrine_Connection_Mysql} query : SELECT v.id AS v__id, v.category_id AS v__category_id, v.type AS v__type, v.company AS v__company, v.picture AS v__picture, v.url AS v__url, v.width AS v__width, v.height AS v__height, v.description AS v__description, v.token AS v__token, v.is_public AS v__is_public, v.is_activated AS v__is_activated, v.email AS v__email, v.expires_at AS v__expires_at, v.created_at AS v__created_at, v.updated_at AS v__updated_at FROM vmtest_job v - ()
+Apr 02 02:06:21 symfony [info] {sfPHPView} Render "/home/ashfaqzp/ashfaq_projects/vmprojects/apps/frontend/modules/job/templates/indexSuccess.php"
+Apr 02 02:19:40 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /job with parameters array (  'module' => 'job',  'action' => 'index',)
+Apr 02 02:19:40 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 02 02:19:40 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 02 02:19:40 symfony [info] {jobActions} Call "jobActions->executeIndex()"
+Apr 02 02:19:40 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Apr 02 02:19:40 symfony [info] {Doctrine_Connection_Mysql} query : SELECT v.id AS v__id, v.category_id AS v__category_id, v.type AS v__type, v.company AS v__company, v.picture AS v__picture, v.url AS v__url, v.width AS v__width, v.height AS v__height, v.description AS v__description, v.token AS v__token, v.is_public AS v__is_public, v.is_activated AS v__is_activated, v.email AS v__email, v.expires_at AS v__expires_at, v.created_at AS v__created_at, v.updated_at AS v__updated_at FROM vmtest_job v - ()
+Apr 02 02:19:40 symfony [info] {sfPHPView} Render "/home/ashfaqzp/ashfaq_projects/vmprojects/apps/frontend/modules/job/templates/indexSuccess.php"
+Apr 02 02:21:09 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /job with parameters array (  'module' => 'job',  'action' => 'index',)
+Apr 02 02:21:09 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 02 02:21:09 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 02 02:21:09 symfony [info] {jobActions} Call "jobActions->executeIndex()"
+Apr 02 02:21:09 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Apr 02 02:21:09 symfony [info] {Doctrine_Connection_Mysql} query : SELECT v.id AS v__id, v.category_id AS v__category_id, v.type AS v__type, v.company AS v__company, v.picture AS v__picture, v.url AS v__url, v.width AS v__width, v.height AS v__height, v.description AS v__description, v.token AS v__token, v.is_public AS v__is_public, v.is_activated AS v__is_activated, v.email AS v__email, v.expires_at AS v__expires_at, v.created_at AS v__created_at, v.updated_at AS v__updated_at FROM vmtest_job v - ()
+Apr 02 02:21:09 symfony [info] {sfPHPView} Render "/home/ashfaqzp/ashfaq_projects/vmprojects/apps/frontend/modules/job/templates/indexSuccess.php"
+Apr 02 02:25:32 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /job with parameters array (  'module' => 'job',  'action' => 'index',)
+Apr 02 02:25:32 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 02 02:25:32 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 02 02:25:32 symfony [info] {jobActions} Call "jobActions->executeIndex()"
+Apr 02 02:25:32 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Apr 02 02:25:32 symfony [info] {Doctrine_Connection_Mysql} query : SELECT v.id AS v__id, v.category_id AS v__category_id, v.type AS v__type, v.company AS v__company, v.picture AS v__picture, v.url AS v__url, v.width AS v__width, v.height AS v__height, v.description AS v__description, v.token AS v__token, v.is_public AS v__is_public, v.is_activated AS v__is_activated, v.email AS v__email, v.expires_at AS v__expires_at, v.created_at AS v__created_at, v.updated_at AS v__updated_at FROM vmtest_job v - ()
+Apr 02 02:25:32 symfony [info] {sfPHPView} Render "/home/ashfaqzp/ashfaq_projects/vmprojects/apps/frontend/modules/job/templates/indexSuccess.php"
+Apr 02 08:01:19 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /job with parameters array (  'module' => 'job',  'action' => 'index',)
+Apr 02 08:01:19 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 02 08:01:19 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 02 08:01:19 symfony [info] {jobActions} Call "jobActions->executeIndex()"
+Apr 02 08:01:19 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Apr 02 08:01:19 symfony [info] {Doctrine_Connection_Mysql} query : SELECT v.id AS v__id, v.category_id AS v__category_id, v.type AS v__type, v.company AS v__company, v.picture AS v__picture, v.url AS v__url, v.width AS v__width, v.height AS v__height, v.description AS v__description, v.token AS v__token, v.is_public AS v__is_public, v.is_activated AS v__is_activated, v.email AS v__email, v.expires_at AS v__expires_at, v.created_at AS v__created_at, v.updated_at AS v__updated_at FROM vmtest_job v - ()
+Apr 02 08:01:19 symfony [info] {sfPHPView} Render "/home/ashfaqzp/ashfaq_projects/vmprojects/apps/frontend/modules/job/templates/indexSuccess.php"
+Apr 02 08:05:25 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /job with parameters array (  'module' => 'job',  'action' => 'index',)
+Apr 02 08:05:25 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 02 08:05:25 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 02 08:05:25 symfony [info] {jobActions} Call "jobActions->executeIndex()"
+Apr 02 08:05:25 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Apr 02 08:05:25 symfony [info] {Doctrine_Connection_Mysql} query : SELECT v.id AS v__id, v.category_id AS v__category_id, v.type AS v__type, v.company AS v__company, v.picture AS v__picture, v.url AS v__url, v.width AS v__width, v.height AS v__height, v.description AS v__description, v.token AS v__token, v.is_public AS v__is_public, v.is_activated AS v__is_activated, v.email AS v__email, v.expires_at AS v__expires_at, v.created_at AS v__created_at, v.updated_at AS v__updated_at FROM vmtest_job v - ()
+Apr 02 08:05:25 symfony [info] {sfPHPView} Render "/home/ashfaqzp/ashfaq_projects/vmprojects/apps/frontend/modules/job/templates/indexSuccess.php"
+Apr 02 08:13:58 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /job with parameters array (  'module' => 'job',  'action' => 'index',)
+Apr 02 08:13:58 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 02 08:13:58 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 02 08:13:58 symfony [info] {jobActions} Call "jobActions->executeIndex()"
+Apr 02 08:13:58 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Apr 02 08:13:58 symfony [info] {Doctrine_Connection_Mysql} query : SELECT v.id AS v__id, v.category_id AS v__category_id, v.type AS v__type, v.company AS v__company, v.picture AS v__picture, v.url AS v__url, v.width AS v__width, v.height AS v__height, v.description AS v__description, v.token AS v__token, v.is_public AS v__is_public, v.is_activated AS v__is_activated, v.email AS v__email, v.expires_at AS v__expires_at, v.created_at AS v__created_at, v.updated_at AS v__updated_at FROM vmtest_job v - ()
+Apr 02 08:13:58 symfony [info] {sfPHPView} Render "/home/ashfaqzp/ashfaq_projects/vmprojects/apps/frontend/modules/job/templates/indexSuccess.php"
+Apr 02 08:13:58 symfony [info] {sfPHPView} Decorate content with "/home/ashfaqzp/ashfaq_projects/vmprojects/apps/frontend/templates/layout.php"
+Apr 02 08:13:58 symfony [info] {sfPHPView} Render "/home/ashfaqzp/ashfaq_projects/vmprojects/apps/frontend/templates/layout.php"
+Apr 02 08:13:58 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 02 08:13:58 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 02 08:13:58 symfony [info] {sfWebDebugLogger} Configuration 0.58 ms (9)
+Apr 02 08:13:58 symfony [info] {sfWebDebugLogger} Factories 6.91 ms (1)
+Apr 02 08:13:58 symfony [info] {sfWebDebugLogger} Action "job/index" 12.32 ms (1)
+Apr 02 08:13:58 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.53 ms (2)
+Apr 02 08:13:58 symfony [info] {sfWebDebugLogger} View "Success" for "job/index" 13.03 ms (1)
+Apr 02 08:13:58 symfony [info] {sfWebResponse} Send content (32922 o)
+Apr 02 08:14:12 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /job/new with parameters array (  'module' => 'job',  'action' => 'new',)
+Apr 02 08:14:12 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 02 08:14:12 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 02 08:14:12 symfony [info] {jobActions} Call "jobActions->executeNew()"
+Apr 02 08:14:12 symfony [info] {sfPHPView} Render "/home/ashfaqzp/ashfaq_projects/vmprojects/apps/frontend/modules/job/templates/newSuccess.php"
+Apr 02 08:14:12 symfony [info] {sfPartialView} Render "/home/ashfaqzp/ashfaq_projects/vmprojects/apps/frontend/modules/job/templates/_form.php"
+Apr 02 08:14:12 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Apr 02 08:14:12 symfony [info] {Doctrine_Connection_Mysql} query : SELECT v.id AS v__id, v.name AS v__name, v.created_at AS v__created_at, v.updated_at AS v__updated_at FROM vmtest_category v - ()
+Apr 02 08:14:12 symfony [info] {sfPHPView} Decorate content with "/home/ashfaqzp/ashfaq_projects/vmprojects/apps/frontend/templates/layout.php"
+Apr 02 08:14:12 symfony [info] {sfPHPView} Render "/home/ashfaqzp/ashfaq_projects/vmprojects/apps/frontend/templates/layout.php"
+Apr 02 08:14:12 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 02 08:14:12 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 02 08:14:12 symfony [info] {sfWebDebugLogger} Configuration 0.54 ms (9)
+Apr 02 08:14:12 symfony [info] {sfWebDebugLogger} Factories 7.06 ms (1)
+Apr 02 08:14:12 symfony [info] {sfWebDebugLogger} Action "job/new" 51.25 ms (1)
+Apr 02 08:14:12 symfony [info] {sfWebDebugLogger} View "Success" for "job/new" 74.45 ms (1)
+Apr 02 08:14:12 symfony [info] {sfWebDebugLogger} Partial "job/_form" 70.71 ms (1)
+Apr 02 08:14:12 symfony [info] {sfWebDebugLogger} Database (Doctrine) 37.23 ms (2)
+Apr 02 08:14:12 symfony [info] {sfWebResponse} Send content (57183 o)
+Apr 02 08:14:18 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /job with parameters array (  'module' => 'job',  'action' => 'index',)
+Apr 02 08:14:18 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 02 08:14:18 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 02 08:14:18 symfony [info] {jobActions} Call "jobActions->executeIndex()"
+Apr 02 08:14:18 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Apr 02 08:14:18 symfony [info] {Doctrine_Connection_Mysql} query : SELECT v.id AS v__id, v.category_id AS v__category_id, v.type AS v__type, v.company AS v__company, v.picture AS v__picture, v.url AS v__url, v.width AS v__width, v.height AS v__height, v.description AS v__description, v.token AS v__token, v.is_public AS v__is_public, v.is_activated AS v__is_activated, v.email AS v__email, v.expires_at AS v__expires_at, v.created_at AS v__created_at, v.updated_at AS v__updated_at FROM vmtest_job v - ()
+Apr 02 08:14:18 symfony [info] {sfPHPView} Render "/home/ashfaqzp/ashfaq_projects/vmprojects/apps/frontend/modules/job/templates/indexSuccess.php"
+Apr 02 08:14:18 symfony [info] {sfPHPView} Decorate content with "/home/ashfaqzp/ashfaq_projects/vmprojects/apps/frontend/templates/layout.php"
+Apr 02 08:14:18 symfony [info] {sfPHPView} Render "/home/ashfaqzp/ashfaq_projects/vmprojects/apps/frontend/templates/layout.php"
+Apr 02 08:14:18 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 02 08:14:18 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 02 08:14:18 symfony [info] {sfWebDebugLogger} Configuration 0.49 ms (9)
+Apr 02 08:14:18 symfony [info] {sfWebDebugLogger} Factories 7.07 ms (1)
+Apr 02 08:14:18 symfony [info] {sfWebDebugLogger} Action "job/index" 7.98 ms (1)
+Apr 02 08:14:18 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.32 ms (2)
+Apr 02 08:14:18 symfony [info] {sfWebDebugLogger} View "Success" for "job/index" 5.65 ms (1)
+Apr 02 08:14:18 symfony [info] {sfWebResponse} Send content (32669 o)
+Apr 02 08:14:22 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /job/new with parameters array (  'module' => 'job',  'action' => 'new',)
+Apr 02 08:14:22 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 02 08:14:22 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 02 08:14:22 symfony [info] {jobActions} Call "jobActions->executeNew()"
+Apr 02 08:14:22 symfony [info] {sfPHPView} Render "/home/ashfaqzp/ashfaq_projects/vmprojects/apps/frontend/modules/job/templates/newSuccess.php"
+Apr 02 08:14:22 symfony [info] {sfPartialView} Render "/home/ashfaqzp/ashfaq_projects/vmprojects/apps/frontend/modules/job/templates/_form.php"
+Apr 02 08:14:22 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Apr 02 08:14:22 symfony [info] {Doctrine_Connection_Mysql} query : SELECT v.id AS v__id, v.name AS v__name, v.created_at AS v__created_at, v.updated_at AS v__updated_at FROM vmtest_category v - ()
+Apr 02 08:14:22 symfony [info] {sfPHPView} Decorate content with "/home/ashfaqzp/ashfaq_projects/vmprojects/apps/frontend/templates/layout.php"
+Apr 02 08:14:22 symfony [info] {sfPHPView} Render "/home/ashfaqzp/ashfaq_projects/vmprojects/apps/frontend/templates/layout.php"
+Apr 02 08:14:22 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 02 08:14:22 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 02 08:14:22 symfony [info] {sfWebDebugLogger} Configuration 0.48 ms (9)
+Apr 02 08:14:22 symfony [info] {sfWebDebugLogger} Factories 6.83 ms (1)
+Apr 02 08:14:22 symfony [info] {sfWebDebugLogger} Action "job/new" 14.48 ms (1)
+Apr 02 08:14:22 symfony [info] {sfWebDebugLogger} View "Success" for "job/new" 31.46 ms (1)
+Apr 02 08:14:22 symfony [info] {sfWebDebugLogger} Partial "job/_form" 25.57 ms (1)
+Apr 02 08:14:22 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.25 ms (2)
+Apr 02 08:14:22 symfony [info] {sfWebResponse} Send content (57240 o)
+Apr 02 08:14:27 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /job/create with parameters array (  'module' => 'job',  'action' => 'create',)
+Apr 02 08:14:27 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 02 08:14:27 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 02 08:14:27 symfony [info] {jobActions} Call "jobActions->executeCreate()"
+Apr 02 08:14:27 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Apr 02 08:14:27 symfony [info] {Doctrine_Connection_Statement} execute : SELECT v.id AS v__id, v.category_id AS v__category_id, v.type AS v__type, v.company AS v__company, v.picture AS v__picture, v.url AS v__url, v.width AS v__width, v.height AS v__height, v.description AS v__description, v.token AS v__token, v.is_public AS v__is_public, v.is_activated AS v__is_activated, v.email AS v__email, v.expires_at AS v__expires_at, v.created_at AS v__created_at, v.updated_at AS v__updated_at FROM vmtest_job v WHERE (v.token = ?) - ()
+Apr 02 08:14:27 symfony [info] {jobActions} Change template to "CURRENT/new"
+Apr 02 08:14:27 symfony [info] {sfPHPView} Render "/home/ashfaqzp/ashfaq_projects/vmprojects/apps/frontend/modules/job/templates/newSuccess.php"
+Apr 02 08:14:27 symfony [info] {sfPartialView} Render "/home/ashfaqzp/ashfaq_projects/vmprojects/apps/frontend/modules/job/templates/_form.php"
+Apr 02 08:14:27 symfony [info] {Doctrine_Connection_Mysql} query : SELECT v.id AS v__id, v.name AS v__name, v.created_at AS v__created_at, v.updated_at AS v__updated_at FROM vmtest_category v - ()
+Apr 02 08:14:27 symfony [info] {sfPHPView} Decorate content with "/home/ashfaqzp/ashfaq_projects/vmprojects/apps/frontend/templates/layout.php"
+Apr 02 08:14:27 symfony [info] {sfPHPView} Render "/home/ashfaqzp/ashfaq_projects/vmprojects/apps/frontend/templates/layout.php"
+Apr 02 08:14:27 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 02 08:14:27 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 02 08:14:27 symfony [info] {sfWebDebugLogger} Configuration 1.16 ms (9)
+Apr 02 08:14:27 symfony [info] {sfWebDebugLogger} Factories 15.30 ms (1)
+Apr 02 08:14:27 symfony [info] {sfWebDebugLogger} Action "job/create" 81.04 ms (1)
+Apr 02 08:14:27 symfony [info] {sfWebDebugLogger} Database (Doctrine) 6.19 ms (3)
+Apr 02 08:14:27 symfony [info] {sfWebDebugLogger} View "Success" for "job/create" 57.07 ms (1)
+Apr 02 08:14:27 symfony [info] {sfWebDebugLogger} Partial "job/_form" 53.80 ms (1)
+Apr 02 08:14:27 symfony [info] {sfWebResponse} Send content (64124 o)
+Apr 02 08:17:05 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /job/create with parameters array (  'module' => 'job',  'action' => 'create',)
+Apr 02 08:17:05 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 02 08:17:05 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 02 08:17:05 symfony [info] {jobActions} Call "jobActions->executeCreate()"
+Apr 02 08:17:05 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Apr 02 08:17:05 symfony [info] {Doctrine_Connection_Statement} execute : SELECT v.id AS v__id, v.category_id AS v__category_id, v.type AS v__type, v.company AS v__company, v.picture AS v__picture, v.url AS v__url, v.width AS v__width, v.height AS v__height, v.description AS v__description, v.token AS v__token, v.is_public AS v__is_public, v.is_activated AS v__is_activated, v.email AS v__email, v.expires_at AS v__expires_at, v.created_at AS v__created_at, v.updated_at AS v__updated_at FROM vmtest_job v WHERE (v.token = ?) - ()
+Apr 02 08:17:05 symfony [info] {jobActions} Change template to "CURRENT/new"
+Apr 02 08:17:05 symfony [info] {sfPHPView} Render "/home/ashfaqzp/ashfaq_projects/vmprojects/apps/frontend/modules/job/templates/newSuccess.php"
+Apr 02 08:17:05 symfony [info] {sfPartialView} Render "/home/ashfaqzp/ashfaq_projects/vmprojects/apps/frontend/modules/job/templates/_form.php"
+Apr 02 08:17:05 symfony [info] {Doctrine_Connection_Mysql} query : SELECT v.id AS v__id, v.name AS v__name, v.created_at AS v__created_at, v.updated_at AS v__updated_at FROM vmtest_category v - ()
+Apr 02 08:17:05 symfony [info] {sfPHPView} Decorate content with "/home/ashfaqzp/ashfaq_projects/vmprojects/apps/frontend/templates/layout.php"
+Apr 02 08:17:05 symfony [info] {sfPHPView} Render "/home/ashfaqzp/ashfaq_projects/vmprojects/apps/frontend/templates/layout.php"
+Apr 02 08:17:05 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 02 08:17:05 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 02 08:17:05 symfony [info] {sfWebDebugLogger} Configuration 0.48 ms (9)
+Apr 02 08:17:05 symfony [info] {sfWebDebugLogger} Factories 11.04 ms (1)
+Apr 02 08:17:05 symfony [info] {sfWebDebugLogger} Action "job/create" 24.06 ms (1)
+Apr 02 08:17:05 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.40 ms (3)
+Apr 02 08:17:05 symfony [info] {sfWebDebugLogger} View "Success" for "job/create" 26.00 ms (1)
+Apr 02 08:17:05 symfony [info] {sfWebDebugLogger} Partial "job/_form" 24.09 ms (1)
+Apr 02 08:17:05 symfony [info] {sfWebResponse} Send content (63991 o)
+Apr 02 12:23:11 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /job/create with parameters array (  'module' => 'job',  'action' => 'create',)
+Apr 02 12:23:11 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 02 12:23:11 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 02 12:23:11 symfony [info] {jobActions} Call "jobActions->executeCreate()"
+Apr 02 12:23:11 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Apr 02 12:23:11 symfony [info] {Doctrine_Connection_Statement} execute : SELECT v.id AS v__id, v.category_id AS v__category_id, v.type AS v__type, v.company AS v__company, v.picture AS v__picture, v.url AS v__url, v.width AS v__width, v.height AS v__height, v.description AS v__description, v.token AS v__token, v.is_public AS v__is_public, v.is_activated AS v__is_activated, v.email AS v__email, v.expires_at AS v__expires_at, v.created_at AS v__created_at, v.updated_at AS v__updated_at FROM vmtest_job v WHERE (v.token = ?) - ()
+Apr 02 12:23:11 symfony [info] {jobActions} Change template to "CURRENT/new"
+Apr 02 12:23:11 symfony [info] {sfPHPView} Render "/home/ashfaqzp/ashfaq_projects/vmprojects/apps/frontend/modules/job/templates/newSuccess.php"
+Apr 02 12:23:11 symfony [info] {sfPartialView} Render "/home/ashfaqzp/ashfaq_projects/vmprojects/apps/frontend/modules/job/templates/_form.php"
+Apr 02 12:23:11 symfony [info] {Doctrine_Connection_Mysql} query : SELECT v.id AS v__id, v.name AS v__name, v.created_at AS v__created_at, v.updated_at AS v__updated_at FROM vmtest_category v - ()
+Apr 02 12:23:12 symfony [info] {sfPHPView} Decorate content with "/home/ashfaqzp/ashfaq_projects/vmprojects/apps/frontend/templates/layout.php"
+Apr 02 12:23:12 symfony [info] {sfPHPView} Render "/home/ashfaqzp/ashfaq_projects/vmprojects/apps/frontend/templates/layout.php"
+Apr 02 12:23:12 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 02 12:23:12 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 02 12:23:12 symfony [info] {sfWebDebugLogger} Configuration 4.65 ms (9)
+Apr 02 12:23:12 symfony [info] {sfWebDebugLogger} Factories 12.98 ms (1)
+Apr 02 12:23:12 symfony [info] {sfWebDebugLogger} Action "job/create" 26.87 ms (1)
+Apr 02 12:23:12 symfony [info] {sfWebDebugLogger} Database (Doctrine) 3.65 ms (3)
+Apr 02 12:23:12 symfony [info] {sfWebDebugLogger} View "Success" for "job/create" 35.19 ms (1)
+Apr 02 12:23:12 symfony [info] {sfWebDebugLogger} Partial "job/_form" 27.92 ms (1)
+Apr 02 12:23:12 symfony [warning] {sfWebDebugLogger}  Warning at /home/ashfaqzp/ashfaq_projects/vmprojects/lib/vendor/symfony/lib/util/sfToolkit.class.php on line 364 (preg_replace_callback(): Requires argument 2, 'Array', to be a valid callback)
+Apr 02 12:23:12 symfony [warning] {sfWebDebugLogger}  Warning at /home/ashfaqzp/ashfaq_projects/vmprojects/lib/vendor/symfony/lib/util/sfToolkit.class.php on line 364 (preg_replace_callback(): Requires argument 2, 'Array', to be a valid callback)
+Apr 02 12:23:12 symfony [warning] {sfWebDebugLogger}  Warning at /home/ashfaqzp/ashfaq_projects/vmprojects/lib/vendor/symfony/lib/util/sfToolkit.class.php on line 364 (preg_replace_callback(): Requires argument 2, 'Array', to be a valid callback)
+Apr 02 12:23:12 symfony [warning] {sfWebDebugLogger}  Warning at /home/ashfaqzp/ashfaq_projects/vmprojects/lib/vendor/symfony/lib/util/sfToolkit.class.php on line 364 (preg_replace_callback(): Requires argument 2, 'Array', to be a valid callback)
+Apr 02 12:23:12 symfony [warning] {sfWebDebugLogger}  Warning at /home/ashfaqzp/ashfaq_projects/vmprojects/lib/vendor/symfony/lib/util/sfToolkit.class.php on line 364 (preg_replace_callback(): Requires argument 2, 'Array', to be a valid callback)
+Apr 02 12:23:12 symfony [warning] {sfWebDebugLogger}  Warning at /home/ashfaqzp/ashfaq_projects/vmprojects/lib/vendor/symfony/lib/util/sfToolkit.class.php on line 364 (preg_replace_callback(): Requires argument 2, 'Array', to be a valid callback)
+Apr 02 12:23:12 symfony [warning] {sfWebDebugLogger}  Warning at /home/ashfaqzp/ashfaq_projects/vmprojects/lib/vendor/symfony/lib/util/sfToolkit.class.php on line 364 (preg_replace_callback(): Requires argument 2, 'Array', to be a valid callback)
+Apr 02 12:23:12 symfony [warning] {sfWebDebugLogger}  Warning at /home/ashfaqzp/ashfaq_projects/vmprojects/lib/vendor/symfony/lib/util/sfToolkit.class.php on line 364 (preg_replace_callback(): Requires argument 2, 'Array', to be a valid callback)
+Apr 02 12:23:12 symfony [warning] {sfWebDebugLogger}  Warning at /home/ashfaqzp/ashfaq_projects/vmprojects/lib/vendor/symfony/lib/util/sfToolkit.class.php on line 364 (preg_replace_callback(): Requires argument 2, 'Array', to be a valid callback)
+Apr 02 12:23:12 symfony [warning] {sfWebDebugLogger}  Warning at /home/ashfaqzp/ashfaq_projects/vmprojects/lib/vendor/symfony/lib/util/sfToolkit.class.php on line 364 (preg_replace_callback(): Requires argument 2, 'Array', to be a valid callback)
+Apr 02 12:23:12 symfony [warning] {sfWebDebugLogger}  Warning at /home/ashfaqzp/ashfaq_projects/vmprojects/lib/vendor/symfony/lib/util/sfToolkit.class.php on line 364 (preg_replace_callback(): Requires argument 2, 'Array', to be a valid callback)
+Apr 02 12:23:12 symfony [warning] {sfWebDebugLogger}  Warning at /home/ashfaqzp/ashfaq_projects/vmprojects/lib/vendor/symfony/lib/util/sfToolkit.class.php on line 364 (preg_replace_callback(): Requires argument 2, 'Array', to be a valid callback)
+Apr 02 12:23:12 symfony [warning] {sfWebDebugLogger}  Warning at /home/ashfaqzp/ashfaq_projects/vmprojects/lib/vendor/symfony/lib/util/sfToolkit.class.php on line 364 (preg_replace_callback(): Requires argument 2, 'Array', to be a valid callback)
+Apr 02 12:23:12 symfony [warning] {sfWebDebugLogger}  Warning at /home/ashfaqzp/ashfaq_projects/vmprojects/lib/vendor/symfony/lib/util/sfToolkit.class.php on line 364 (preg_replace_callback(): Requires argument 2, 'Array', to be a valid callback)
+Apr 02 12:23:12 symfony [info] {sfWebResponse} Send content (63655 o)
+Apr 02 12:50:09 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /job/create with parameters array (  'module' => 'job',  'action' => 'create',)
+Apr 02 12:50:09 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 02 12:50:09 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 02 12:50:09 symfony [info] {jobActions} Call "jobActions->executeCreate()"
+Apr 02 12:50:09 symfony [err] {sfError404Exception} This request has been forwarded to a 404 error page by the action "job/create".
+Apr 02 12:50:09 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Apr 02 12:50:09 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 02 12:50:09 symfony [info] {sfWebDebugLogger} Configuration 4.58 ms (8)
+Apr 02 12:50:09 symfony [info] {sfWebDebugLogger} Factories 9.17 ms (1)
+Apr 02 12:50:09 symfony [info] {sfWebDebugLogger} Action "job/create" 23.92 ms (1)
+Apr 02 12:50:09 symfony [warning] {sfWebDebugLogger}  Warning at /home/ashfaqzp/ashfaq_projects/vmprojects/lib/vendor/symfony/lib/util/sfToolkit.class.php on line 364 (preg_replace_callback(): Requires argument 2, 'Array', to be a valid callback)
+Apr 02 12:50:09 symfony [warning] {sfWebDebugLogger}  Warning at /home/ashfaqzp/ashfaq_projects/vmprojects/lib/vendor/symfony/lib/util/sfToolkit.class.php on line 364 (preg_replace_callback(): Requires argument 2, 'Array', to be a valid callback)
+Apr 02 12:50:09 symfony [warning] {sfWebDebugLogger}  Warning at /home/ashfaqzp/ashfaq_projects/vmprojects/lib/vendor/symfony/lib/util/sfToolkit.class.php on line 364 (preg_replace_callback(): Requires argument 2, 'Array', to be a valid callback)
+Apr 02 12:50:09 symfony [warning] {sfWebDebugLogger}  Warning at /home/ashfaqzp/ashfaq_projects/vmprojects/lib/vendor/symfony/lib/util/sfToolkit.class.php on line 364 (preg_replace_callback(): Requires argument 2, 'Array', to be a valid callback)
+Apr 02 12:50:09 symfony [warning] {sfWebDebugLogger}  Warning at /home/ashfaqzp/ashfaq_projects/vmprojects/lib/vendor/symfony/lib/util/sfToolkit.class.php on line 364 (preg_replace_callback(): Requires argument 2, 'Array', to be a valid callback)
+Apr 02 12:50:09 symfony [warning] {sfWebDebugLogger}  Warning at /home/ashfaqzp/ashfaq_projects/vmprojects/lib/vendor/symfony/lib/util/sfToolkit.class.php on line 364 (preg_replace_callback(): Requires argument 2, 'Array', to be a valid callback)
+Apr 02 12:50:09 symfony [warning] {sfWebDebugLogger}  Warning at /home/ashfaqzp/ashfaq_projects/vmprojects/lib/vendor/symfony/lib/util/sfToolkit.class.php on line 364 (preg_replace_callback(): Requires argument 2, 'Array', to be a valid callback)
+Apr 02 12:52:39 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /job/create with parameters array (  'module' => 'job',  'action' => 'create',)
+Apr 02 12:52:39 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 02 12:52:39 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 02 12:52:39 symfony [info] {jobActions} Call "jobActions->executeCreate()"
+Apr 02 12:52:39 symfony [err] {sfError404Exception} This request has been forwarded to a 404 error page by the action "job/create".
+Apr 02 12:52:39 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Apr 02 12:52:39 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 02 12:52:39 symfony [info] {sfWebDebugLogger} Configuration 0.44 ms (8)
+Apr 02 12:52:39 symfony [info] {sfWebDebugLogger} Factories 7.10 ms (1)
+Apr 02 12:52:39 symfony [info] {sfWebDebugLogger} Action "job/create" 25.83 ms (1)
+Apr 02 12:52:39 symfony [warning] {sfWebDebugLogger}  Warning at /home/ashfaqzp/ashfaq_projects/vmprojects/lib/vendor/symfony/lib/util/sfToolkit.class.php on line 364 (preg_replace_callback(): Requires argument 2, 'Array', to be a valid callback)
+Apr 02 12:52:39 symfony [warning] {sfWebDebugLogger}  Warning at /home/ashfaqzp/ashfaq_projects/vmprojects/lib/vendor/symfony/lib/util/sfToolkit.class.php on line 364 (preg_replace_callback(): Requires argument 2, 'Array', to be a valid callback)
+Apr 02 12:52:39 symfony [warning] {sfWebDebugLogger}  Warning at /home/ashfaqzp/ashfaq_projects/vmprojects/lib/vendor/symfony/lib/util/sfToolkit.class.php on line 364 (preg_replace_callback(): Requires argument 2, 'Array', to be a valid callback)
+Apr 02 12:52:39 symfony [warning] {sfWebDebugLogger}  Warning at /home/ashfaqzp/ashfaq_projects/vmprojects/lib/vendor/symfony/lib/util/sfToolkit.class.php on line 364 (preg_replace_callback(): Requires argument 2, 'Array', to be a valid callback)
+Apr 02 12:52:39 symfony [warning] {sfWebDebugLogger}  Warning at /home/ashfaqzp/ashfaq_projects/vmprojects/lib/vendor/symfony/lib/util/sfToolkit.class.php on line 364 (preg_replace_callback(): Requires argument 2, 'Array', to be a valid callback)
+Apr 02 12:52:39 symfony [warning] {sfWebDebugLogger}  Warning at /home/ashfaqzp/ashfaq_projects/vmprojects/lib/vendor/symfony/lib/util/sfToolkit.class.php on line 364 (preg_replace_callback(): Requires argument 2, 'Array', to be a valid callback)
+Apr 02 12:52:39 symfony [warning] {sfWebDebugLogger}  Warning at /home/ashfaqzp/ashfaq_projects/vmprojects/lib/vendor/symfony/lib/util/sfToolkit.class.php on line 364 (preg_replace_callback(): Requires argument 2, 'Array', to be a valid callback)
+Apr 02 13:27:10 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /job with parameters array (  'module' => 'job',  'action' => 'index',)
+Apr 02 13:27:10 symfony [info] {myUser} Automatic user logout due to timeout
+Apr 02 13:27:10 symfony [info] {myUser} User is not authenticated
+Apr 02 13:27:10 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 02 13:27:10 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 02 13:27:10 symfony [info] {jobActions} Call "jobActions->executeIndex()"
+Apr 02 13:27:10 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Apr 02 13:27:10 symfony [info] {Doctrine_Connection_Mysql} query : SELECT v.id AS v__id, v.category_id AS v__category_id, v.type AS v__type, v.company AS v__company, v.picture AS v__picture, v.url AS v__url, v.width AS v__width, v.height AS v__height, v.description AS v__description, v.token AS v__token, v.is_public AS v__is_public, v.is_activated AS v__is_activated, v.email AS v__email, v.expires_at AS v__expires_at, v.created_at AS v__created_at, v.updated_at AS v__updated_at FROM vmtest_job v - ()
+Apr 02 13:27:10 symfony [info] {sfPHPView} Render "/home/ashfaqzp/ashfaq_projects/vmprojects/apps/frontend/modules/job/templates/indexSuccess.php"
+Apr 02 13:27:10 symfony [warning] {sfWebDebugLogger}  Warning at /home/ashfaqzp/ashfaq_projects/vmprojects/lib/vendor/symfony/lib/util/sfToolkit.class.php on line 364 (preg_replace_callback(): Requires argument 2, '\1_\2::\1_\2', to be a valid callback)
+Apr 02 13:27:10 symfony [warning] {sfWebDebugLogger}  Warning at /home/ashfaqzp/ashfaq_projects/vmprojects/lib/vendor/symfony/lib/util/sfToolkit.class.php on line 364 (preg_replace_callback(): Requires argument 2, '\1_\2::\1_\2', to be a valid callback)
+Apr 02 13:27:10 symfony [warning] {sfWebDebugLogger}  Warning at /home/ashfaqzp/ashfaq_projects/vmprojects/lib/vendor/symfony/lib/util/sfToolkit.class.php on line 364 (preg_replace_callback(): Requires argument 2, '\1_\2::\1_\2', to be a valid callback)
+Apr 02 13:27:10 symfony [warning] {sfWebDebugLogger}  Warning at /home/ashfaqzp/ashfaq_projects/vmprojects/lib/vendor/symfony/lib/util/sfToolkit.class.php on line 364 (preg_replace_callback(): Requires argument 2, ''::'.strtoupper('\1')::strtoupper('\2')', to be a valid callback)
+Apr 02 13:27:10 symfony [err] {Doctrine_Record_UnknownPropertyException} Unknown record property / related component "categoryid" on "VmtestJob"
+Apr 02 13:27:10 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Apr 02 13:27:10 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 02 13:27:10 symfony [info] {sfWebDebugLogger} Configuration 32.77 ms (11)
+Apr 02 13:27:10 symfony [info] {sfWebDebugLogger} Factories 7.63 ms (1)
+Apr 02 13:27:10 symfony [info] {sfWebDebugLogger} Action "job/index" 12.38 ms (1)
+Apr 02 13:27:10 symfony [info] {sfWebDebugLogger} Database (Doctrine) 2.15 ms (2)
+Apr 02 13:27:10 symfony [info] {sfWebDebugLogger} View "Success" for "job/index" 112.09 ms (1)
+Apr 02 13:27:10 symfony [warning] {sfWebDebugLogger}  Warning at /home/ashfaqzp/ashfaq_projects/vmprojects/lib/vendor/symfony/lib/util/sfToolkit.class.php on line 364 (preg_replace_callback(): Requires argument 2, 'Array', to be a valid callback)
+Apr 02 13:27:10 symfony [warning] {sfWebDebugLogger}  Warning at /home/ashfaqzp/ashfaq_projects/vmprojects/lib/vendor/symfony/lib/util/sfToolkit.class.php on line 364 (preg_replace_callback(): Requires argument 2, 'Array', to be a valid callback)
+Apr 02 13:27:10 symfony [warning] {sfWebDebugLogger}  Warning at /home/ashfaqzp/ashfaq_projects/vmprojects/lib/vendor/symfony/lib/util/sfToolkit.class.php on line 364 (preg_replace_callback(): Requires argument 2, 'Array', to be a valid callback)
+Apr 02 13:27:10 symfony [warning] {sfWebDebugLogger}  Warning at /home/ashfaqzp/ashfaq_projects/vmprojects/lib/vendor/symfony/lib/util/sfToolkit.class.php on line 364 (preg_replace_callback(): Requires argument 2, 'Array', to be a valid callback)
+Apr 02 13:27:10 symfony [warning] {sfWebDebugLogger}  Warning at /home/ashfaqzp/ashfaq_projects/vmprojects/lib/vendor/symfony/lib/util/sfToolkit.class.php on line 364 (preg_replace_callback(): Requires argument 2, 'Array', to be a valid callback)
+Apr 02 13:27:10 symfony [warning] {sfWebDebugLogger}  Warning at /home/ashfaqzp/ashfaq_projects/vmprojects/lib/vendor/symfony/lib/util/sfToolkit.class.php on line 364 (preg_replace_callback(): Requires argument 2, 'Array', to be a valid callback)
+Apr 02 13:27:10 symfony [warning] {sfWebDebugLogger}  Warning at /home/ashfaqzp/ashfaq_projects/vmprojects/lib/vendor/symfony/lib/util/sfToolkit.class.php on line 364 (preg_replace_callback(): Requires argument 2, 'Array', to be a valid callback)
+Apr 02 13:27:10 symfony [warning] {sfWebDebugLogger}  Warning at /home/ashfaqzp/ashfaq_projects/vmprojects/lib/vendor/symfony/lib/util/sfToolkit.class.php on line 364 (preg_replace_callback(): Requires argument 2, 'Array', to be a valid callback)
+Apr 02 13:27:10 symfony [warning] {sfWebDebugLogger}  Warning at /home/ashfaqzp/ashfaq_projects/vmprojects/lib/vendor/symfony/lib/util/sfToolkit.class.php on line 364 (preg_replace_callback(): Requires argument 2, 'Array', to be a valid callback)
+Apr 02 13:27:10 symfony [warning] {sfWebDebugLogger}  Warning at /home/ashfaqzp/ashfaq_projects/vmprojects/lib/vendor/symfony/lib/util/sfToolkit.class.php on line 364 (preg_replace_callback(): Requires argument 2, 'Array', to be a valid callback)
+Apr 02 13:27:10 symfony [warning] {sfWebDebugLogger}  Warning at /home/ashfaqzp/ashfaq_projects/vmprojects/lib/vendor/symfony/lib/util/sfToolkit.class.php on line 364 (preg_replace_callback(): Requires argument 2, 'Array', to be a valid callback)
+Apr 02 13:27:10 symfony [warning] {sfWebDebugLogger}  Warning at /home/ashfaqzp/ashfaq_projects/vmprojects/lib/vendor/symfony/lib/util/sfToolkit.class.php on line 364 (preg_replace_callback(): Requires argument 2, 'Array', to be a valid callback)
+Apr 02 18:33:28 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /job/create with parameters array (  'module' => 'job',  'action' => 'create',)
+Apr 02 18:33:28 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 02 18:33:28 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 02 18:33:28 symfony [info] {jobActions} Call "jobActions->executeCreate()"
+Apr 02 18:33:28 symfony [err] {sfError404Exception} This request has been forwarded to a 404 error page by the action "job/create".
+Apr 02 18:33:28 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Apr 02 18:33:28 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 02 18:33:28 symfony [info] {sfWebDebugLogger} Configuration 0.48 ms (8)
+Apr 02 18:33:28 symfony [info] {sfWebDebugLogger} Factories 13.16 ms (1)
+Apr 02 18:33:28 symfony [info] {sfWebDebugLogger} Action "job/create" 23.68 ms (1)
+Apr 02 18:33:56 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/job/" (/).
+Apr 02 18:33:56 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Apr 02 18:33:56 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 02 18:33:56 symfony [info] {sfWebDebugLogger} Configuration 0.28 ms (5)
+Apr 02 18:33:56 symfony [info] {sfWebDebugLogger} Factories 7.40 ms (1)
+Apr 02 18:35:17 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/job/" (/).
+Apr 02 18:35:17 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Apr 02 18:35:17 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 02 18:35:17 symfony [info] {sfWebDebugLogger} Configuration 0.29 ms (5)
+Apr 02 18:35:17 symfony [info] {sfWebDebugLogger} Factories 6.77 ms (1)
+Apr 02 18:37:44 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /job with parameters array (  'module' => 'job',  'action' => 'index',)
+Apr 02 18:37:44 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 02 18:37:44 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 02 18:37:44 symfony [info] {jobActions} Call "jobActions->executeIndex()"
+Apr 02 18:37:44 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Apr 02 18:37:44 symfony [info] {Doctrine_Connection_Mysql} query : SELECT v.id AS v__id, v.category_id AS v__category_id, v.type AS v__type, v.company AS v__company, v.picture AS v__picture, v.url AS v__url, v.width AS v__width, v.height AS v__height, v.description AS v__description, v.token AS v__token, v.is_public AS v__is_public, v.is_activated AS v__is_activated, v.email AS v__email, v.expires_at AS v__expires_at, v.created_at AS v__created_at, v.updated_at AS v__updated_at FROM vmtest_job v - ()
+Apr 02 18:37:44 symfony [info] {sfPHPView} Render "/home/ashfaqzp/ashfaq_projects/vmprojects/apps/frontend/modules/job/templates/indexSuccess.php"
+Apr 02 18:37:44 symfony [info] {sfPHPView} Decorate content with "/home/ashfaqzp/ashfaq_projects/vmprojects/apps/frontend/templates/layout.php"
+Apr 02 18:37:44 symfony [info] {sfPHPView} Render "/home/ashfaqzp/ashfaq_projects/vmprojects/apps/frontend/templates/layout.php"
+Apr 02 18:37:44 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 02 18:37:44 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 02 18:37:44 symfony [info] {sfWebDebugLogger} Configuration 0.49 ms (9)
+Apr 02 18:37:44 symfony [info] {sfWebDebugLogger} Factories 7.26 ms (1)
+Apr 02 18:37:44 symfony [info] {sfWebDebugLogger} Action "job/index" 21.28 ms (1)
+Apr 02 18:37:44 symfony [info] {sfWebDebugLogger} Database (Doctrine) 5.12 ms (2)
+Apr 02 18:37:44 symfony [info] {sfWebDebugLogger} View "Success" for "job/index" 7.72 ms (1)
+Apr 02 18:37:44 symfony [info] {sfWebResponse} Send content (34626 o)
+Apr 02 18:38:00 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /job/new with parameters array (  'module' => 'job',  'action' => 'new',)
+Apr 02 18:38:00 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 02 18:38:00 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 02 18:38:00 symfony [info] {jobActions} Call "jobActions->executeNew()"
+Apr 02 18:38:00 symfony [info] {sfPHPView} Render "/home/ashfaqzp/ashfaq_projects/vmprojects/apps/frontend/modules/job/templates/newSuccess.php"
+Apr 02 18:38:00 symfony [info] {sfPartialView} Render "/home/ashfaqzp/ashfaq_projects/vmprojects/apps/frontend/modules/job/templates/_form.php"
+Apr 02 18:38:00 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Apr 02 18:38:00 symfony [info] {Doctrine_Connection_Mysql} query : SELECT v.id AS v__id, v.name AS v__name, v.created_at AS v__created_at, v.updated_at AS v__updated_at FROM vmtest_category v - ()
+Apr 02 18:38:00 symfony [info] {sfPHPView} Decorate content with "/home/ashfaqzp/ashfaq_projects/vmprojects/apps/frontend/templates/layout.php"
+Apr 02 18:38:00 symfony [info] {sfPHPView} Render "/home/ashfaqzp/ashfaq_projects/vmprojects/apps/frontend/templates/layout.php"
+Apr 02 18:38:00 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 02 18:38:00 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 02 18:38:00 symfony [info] {sfWebDebugLogger} Configuration 0.51 ms (9)
+Apr 02 18:38:00 symfony [info] {sfWebDebugLogger} Factories 7.30 ms (1)
+Apr 02 18:38:00 symfony [info] {sfWebDebugLogger} Action "job/new" 16.13 ms (1)
+Apr 02 18:38:00 symfony [info] {sfWebDebugLogger} View "Success" for "job/new" 37.56 ms (1)
+Apr 02 18:38:00 symfony [info] {sfWebDebugLogger} Partial "job/_form" 31.35 ms (1)
+Apr 02 18:38:00 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.59 ms (2)
+Apr 02 18:38:01 symfony [info] {sfWebResponse} Send content (57327 o)
+Apr 02 18:44:30 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /blog with parameters array (  'module' => 'blog',  'action' => 'index',)
+Apr 02 18:44:30 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 02 18:44:30 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 02 18:44:30 symfony [info] {blogActions} Call "blogActions->executeIndex()"
+Apr 02 18:44:30 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Apr 02 18:44:30 symfony [info] {Doctrine_Connection_Mysql} query : SELECT b.id AS b__id, b.title AS b__title, b.body AS b__body, b.author AS b__author, b.slug AS b__slug, b.created_at AS b__created_at, b.updated_at AS b__updated_at FROM blog_post b - ()
+Apr 02 18:44:30 symfony [info] {sfPHPView} Render "/home/ashfaqzp/ashfaq_projects/vmprojects/apps/frontend/modules/blog/templates/indexSuccess.php"
+Apr 02 18:44:30 symfony [info] {sfPHPView} Decorate content with "/home/ashfaqzp/ashfaq_projects/vmprojects/apps/frontend/templates/layout.php"
+Apr 02 18:44:30 symfony [info] {sfPHPView} Render "/home/ashfaqzp/ashfaq_projects/vmprojects/apps/frontend/templates/layout.php"
+Apr 02 18:44:30 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 02 18:44:30 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 02 18:44:30 symfony [info] {sfWebDebugLogger} Configuration 13.44 ms (10)
+Apr 02 18:44:30 symfony [info] {sfWebDebugLogger} Factories 11.38 ms (1)
+Apr 02 18:44:30 symfony [info] {sfWebDebugLogger} Action "blog/index" 15.63 ms (1)
+Apr 02 18:44:30 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.65 ms (2)
+Apr 02 18:44:30 symfony [info] {sfWebDebugLogger} View "Success" for "blog/index" 8.01 ms (1)
+Apr 02 18:44:30 symfony [info] {sfWebResponse} Send content (31488 o)
+Apr 02 18:44:35 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /blog/new with parameters array (  'module' => 'blog',  'action' => 'new',)
+Apr 02 18:44:35 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 02 18:44:35 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 02 18:44:35 symfony [info] {blogActions} Call "blogActions->executeNew()"
+Apr 02 18:44:35 symfony [info] {sfPHPView} Render "/home/ashfaqzp/ashfaq_projects/vmprojects/apps/frontend/modules/blog/templates/newSuccess.php"
+Apr 02 18:44:35 symfony [info] {sfPartialView} Render "/home/ashfaqzp/ashfaq_projects/vmprojects/apps/frontend/modules/blog/templates/_form.php"
+Apr 02 18:44:35 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Apr 02 18:44:35 symfony [info] {Doctrine_Connection_Mysql} query : SELECT t.id AS t__id, t.name AS t__name, t.created_at AS t__created_at, t.updated_at AS t__updated_at FROM tag t - ()
+Apr 02 18:44:35 symfony [info] {sfPHPView} Decorate content with "/home/ashfaqzp/ashfaq_projects/vmprojects/apps/frontend/templates/layout.php"
+Apr 02 18:44:35 symfony [info] {sfPHPView} Render "/home/ashfaqzp/ashfaq_projects/vmprojects/apps/frontend/templates/layout.php"
+Apr 02 18:44:35 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 02 18:44:35 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 02 18:44:35 symfony [info] {sfWebDebugLogger} Configuration 0.49 ms (9)
+Apr 02 18:44:35 symfony [info] {sfWebDebugLogger} Factories 3.11 ms (1)
+Apr 02 18:44:35 symfony [info] {sfWebDebugLogger} Action "blog/new" 16.33 ms (1)
+Apr 02 18:44:35 symfony [info] {sfWebDebugLogger} View "Success" for "blog/new" 25.13 ms (1)
+Apr 02 18:44:35 symfony [info] {sfWebDebugLogger} Partial "blog/_form" 22.92 ms (1)
+Apr 02 18:44:35 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.57 ms (2)
+Apr 02 18:44:35 symfony [info] {sfWebResponse} Send content (47712 o)
+Apr 02 18:45:10 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /blog/create with parameters array (  'module' => 'blog',  'action' => 'create',)
+Apr 02 18:45:10 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 02 18:45:10 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 02 18:45:10 symfony [info] {blogActions} Call "blogActions->executeCreate()"
+Apr 02 18:45:10 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Apr 02 18:45:10 symfony [info] {Doctrine_Connection_Statement} execute : SELECT b.id AS b__id, b.title AS b__title, b.body AS b__body, b.author AS b__author, b.slug AS b__slug, b.created_at AS b__created_at, b.updated_at AS b__updated_at FROM blog_post b WHERE (b.slug = ?) - (a)
+Apr 02 18:45:10 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO blog_post (title, body, author, slug, created_at, updated_at) VALUES (?, ?, ?, ?, ?, ?) - (testing, testing testing testing, a, a, 2010-02-02 01:02:00, 2015-05-05 04:05:00)
+Apr 02 18:45:10 symfony [info] {sfFrontWebController} Redirect to "http://come2biz.com/vmprojects/web/frontend_dev.php/blog/edit/id/1"
+Apr 02 18:45:10 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Apr 02 18:45:10 symfony [info] {sfWebResponse} Send header "Location: http://come2biz.com/vmprojects/web/frontend_dev.php/blog/edit/id/1"
+Apr 02 18:45:10 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 02 18:45:10 symfony [info] {sfWebDebugLogger} Configuration 0.58 ms (8)
+Apr 02 18:45:10 symfony [info] {sfWebDebugLogger} Factories 8.99 ms (1)
+Apr 02 18:45:10 symfony [info] {sfWebDebugLogger} Action "blog/create" 63.44 ms (1)
+Apr 02 18:45:10 symfony [info] {sfWebDebugLogger} Database (Doctrine) 6.20 ms (3)
+Apr 02 18:45:10 symfony [info] {sfWebResponse} Send content (137 o)
+Apr 02 18:45:12 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /blog/edit/id/1 with parameters array (  'module' => 'blog',  'action' => 'edit',  'id' => '1',)
+Apr 02 18:45:12 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 02 18:45:12 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 02 18:45:12 symfony [info] {blogActions} Call "blogActions->executeEdit()"
+Apr 02 18:45:12 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Apr 02 18:45:12 symfony [info] {Doctrine_Connection_Statement} execute : SELECT b.id AS b__id, b.title AS b__title, b.body AS b__body, b.author AS b__author, b.slug AS b__slug, b.created_at AS b__created_at, b.updated_at AS b__updated_at FROM blog_post b WHERE (b.id = ?) LIMIT 1 - (1)
+Apr 02 18:45:12 symfony [info] {Doctrine_Connection_Statement} execute : SELECT t.id AS t__id, t.name AS t__name, t.created_at AS t__created_at, t.updated_at AS t__updated_at, b.blog_post_id AS b__blog_post_id, b.tag_id AS b__tag_id FROM tag t LEFT JOIN blog_post_tag b ON t.id = b.tag_id WHERE (b.blog_post_id IN (?)) - (1)
+Apr 02 18:45:12 symfony [info] {sfPHPView} Render "/home/ashfaqzp/ashfaq_projects/vmprojects/apps/frontend/modules/blog/templates/editSuccess.php"
+Apr 02 18:45:12 symfony [info] {sfPartialView} Render "/home/ashfaqzp/ashfaq_projects/vmprojects/apps/frontend/modules/blog/templates/_form.php"
+Apr 02 18:45:12 symfony [info] {Doctrine_Connection_Mysql} query : SELECT t.id AS t__id, t.name AS t__name, t.created_at AS t__created_at, t.updated_at AS t__updated_at FROM tag t - ()
+Apr 02 18:45:12 symfony [info] {sfPHPView} Decorate content with "/home/ashfaqzp/ashfaq_projects/vmprojects/apps/frontend/templates/layout.php"
+Apr 02 18:45:12 symfony [info] {sfPHPView} Render "/home/ashfaqzp/ashfaq_projects/vmprojects/apps/frontend/templates/layout.php"
+Apr 02 18:45:12 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 02 18:45:12 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 02 18:45:12 symfony [info] {sfWebDebugLogger} Configuration 0.53 ms (9)
+Apr 02 18:45:12 symfony [info] {sfWebDebugLogger} Factories 2.06 ms (1)
+Apr 02 18:45:12 symfony [info] {sfWebDebugLogger} Action "blog/edit" 20.92 ms (1)
+Apr 02 18:45:12 symfony [info] {sfWebDebugLogger} Database (Doctrine) 8.71 ms (4)
+Apr 02 18:45:12 symfony [info] {sfWebDebugLogger} View "Success" for "blog/edit" 24.68 ms (1)
+Apr 02 18:45:12 symfony [info] {sfWebDebugLogger} Partial "blog/_form" 22.61 ms (1)
+Apr 02 18:45:12 symfony [info] {sfWebResponse} Send content (52528 o)
+Apr 02 18:45:19 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /blog with parameters array (  'module' => 'blog',  'action' => 'index',)
+Apr 02 18:45:19 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 02 18:45:19 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 02 18:45:19 symfony [info] {blogActions} Call "blogActions->executeIndex()"
+Apr 02 18:45:19 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Apr 02 18:45:19 symfony [info] {Doctrine_Connection_Mysql} query : SELECT b.id AS b__id, b.title AS b__title, b.body AS b__body, b.author AS b__author, b.slug AS b__slug, b.created_at AS b__created_at, b.updated_at AS b__updated_at FROM blog_post b - ()
+Apr 02 18:45:19 symfony [info] {sfPHPView} Render "/home/ashfaqzp/ashfaq_projects/vmprojects/apps/frontend/modules/blog/templates/indexSuccess.php"
+Apr 02 18:45:19 symfony [info] {sfPHPView} Decorate content with "/home/ashfaqzp/ashfaq_projects/vmprojects/apps/frontend/templates/layout.php"
+Apr 02 18:45:19 symfony [info] {sfPHPView} Render "/home/ashfaqzp/ashfaq_projects/vmprojects/apps/frontend/templates/layout.php"
+Apr 02 18:45:19 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 02 18:45:19 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 02 18:45:19 symfony [info] {sfWebDebugLogger} Configuration 0.52 ms (9)
+Apr 02 18:45:19 symfony [info] {sfWebDebugLogger} Factories 7.56 ms (1)
+Apr 02 18:45:19 symfony [info] {sfWebDebugLogger} Action "blog/index" 15.41 ms (1)
+Apr 02 18:45:19 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.52 ms (2)
+Apr 02 18:45:19 symfony [info] {sfWebDebugLogger} View "Success" for "blog/index" 2.40 ms (1)
+Apr 02 18:45:19 symfony [info] {sfWebResponse} Send content (31847 o)
+Apr 02 18:45:24 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /blog/show/id/1 with parameters array (  'module' => 'blog',  'action' => 'show',  'id' => '1',)
+Apr 02 18:45:24 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 02 18:45:24 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 02 18:45:24 symfony [info] {blogActions} Call "blogActions->executeShow()"
+Apr 02 18:45:24 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Apr 02 18:45:24 symfony [info] {Doctrine_Connection_Statement} execute : SELECT b.id AS b__id, b.title AS b__title, b.body AS b__body, b.author AS b__author, b.slug AS b__slug, b.created_at AS b__created_at, b.updated_at AS b__updated_at FROM blog_post b WHERE (b.id = ?) LIMIT 1 - (1)
+Apr 02 18:45:24 symfony [info] {sfPHPView} Render "/home/ashfaqzp/ashfaq_projects/vmprojects/apps/frontend/modules/blog/templates/showSuccess.php"
+Apr 02 18:45:24 symfony [info] {sfPHPView} Decorate content with "/home/ashfaqzp/ashfaq_projects/vmprojects/apps/frontend/templates/layout.php"
+Apr 02 18:45:24 symfony [info] {sfPHPView} Render "/home/ashfaqzp/ashfaq_projects/vmprojects/apps/frontend/templates/layout.php"
+Apr 02 18:45:24 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 02 18:45:24 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 02 18:45:24 symfony [info] {sfWebDebugLogger} Configuration 0.46 ms (9)
+Apr 02 18:45:24 symfony [info] {sfWebDebugLogger} Factories 6.45 ms (1)
+Apr 02 18:45:24 symfony [info] {sfWebDebugLogger} Action "blog/show" 9.11 ms (1)
+Apr 02 18:45:24 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.23 ms (2)
+Apr 02 18:45:24 symfony [info] {sfWebDebugLogger} View "Success" for "blog/show" 6.34 ms (1)
+Apr 02 18:45:24 symfony [info] {sfWebResponse} Send content (32297 o)
+Apr 02 18:45:29 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /blog with parameters array (  'module' => 'blog',  'action' => 'index',)
+Apr 02 18:45:29 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 02 18:45:29 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 02 18:45:29 symfony [info] {blogActions} Call "blogActions->executeIndex()"
+Apr 02 18:45:29 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Apr 02 18:45:29 symfony [info] {Doctrine_Connection_Mysql} query : SELECT b.id AS b__id, b.title AS b__title, b.body AS b__body, b.author AS b__author, b.slug AS b__slug, b.created_at AS b__created_at, b.updated_at AS b__updated_at FROM blog_post b - ()
+Apr 02 18:45:29 symfony [info] {sfPHPView} Render "/home/ashfaqzp/ashfaq_projects/vmprojects/apps/frontend/modules/blog/templates/indexSuccess.php"
+Apr 02 18:45:29 symfony [info] {sfPHPView} Decorate content with "/home/ashfaqzp/ashfaq_projects/vmprojects/apps/frontend/templates/layout.php"
+Apr 02 18:45:29 symfony [info] {sfPHPView} Render "/home/ashfaqzp/ashfaq_projects/vmprojects/apps/frontend/templates/layout.php"
+Apr 02 18:45:29 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 02 18:45:29 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 02 18:45:29 symfony [info] {sfWebDebugLogger} Configuration 0.54 ms (9)
+Apr 02 18:45:29 symfony [info] {sfWebDebugLogger} Factories 7.45 ms (1)
+Apr 02 18:45:29 symfony [info] {sfWebDebugLogger} Action "blog/index" 14.19 ms (1)
+Apr 02 18:45:29 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.25 ms (2)
+Apr 02 18:45:29 symfony [info] {sfWebDebugLogger} View "Success" for "blog/index" 2.41 ms (1)
+Apr 02 18:45:29 symfony [info] {sfWebResponse} Send content (31847 o)

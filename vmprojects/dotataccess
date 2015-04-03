@@ -1,0 +1,11 @@
+
+SetEnv APPLICATION_ENV development
+
+RewriteEngine On
+RewriteCond $1 !^(index\.php|media)
+	RewriteRule .* index.php
+
+RewriteCond $1 !(^index\.php|gif$|jpg$|ico$|jpeg$|JPG$|JPEG$|GIF$|PNG$|BMP$|png$|bmp$|js$|php$|htm$|css$|ttf$|txt$|pdf$|swf$|flv$|xml$|XML$|xsl$|robots\.txt$|video_chat)
+
+RewriteRule ^([a-zA-Z0-9_-]+)$ index/id/$1
+RewriteRule ^([a-zA-Z0-9_-]+)/$ index/id/$1
